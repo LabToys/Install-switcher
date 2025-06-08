@@ -1,6 +1,6 @@
 🎥 Raspberry Pi Auto Camera Switcher
 Automatic 1080p30 video switching with audio-activated camera selection
-(Outputs to /dev/video100 in YUV420)
+(Outputs to /dev/video100 )
 
 [![MIT License](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 [![Python 3](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
@@ -35,31 +35,17 @@ Installs:
 FFmpeg & ALSA utilities
 v4l2loopback kernel module
 Python dependencies (WebRTC VAD)
-🔧 Configuration
-
-Edit auto_switcher_1080p.py to customize:
-
-
-    "resolution": "1920x1080",
-    
-    # Supported: 1280x720, 1920x1080
-    
-    "pixel_format": "yuv420p",
-    
-    # Forced input/output format
-    
-    "audio_threshold": 0.05,
-    
-    # Voice detection sensitivity (0-1)
-}
-🚀 Usage
 
 bash
 # Manual start (if not using systemd)
-python3 /usr/local/bin/auto_switcher_1080p.py
+
+
+python3 /auto_switcher_1080p.py
+
+
 Features:
 
 Auto-starts on boot via systemd
 Voice Activity Detection (WebRTC)
-Clean 1080p30 YUV420 output
+Clean 1080p30 output
 Camera labels overlay
