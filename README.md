@@ -25,6 +25,7 @@ cd Install-switcher
 bash
 
 chmod +x install_switcher.sh
+
 sudo ./install_switcher.sh
 
 Installs:
