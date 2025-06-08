@@ -2,8 +2,8 @@
 Automatic 1080p30 video switching with audio-activated camera selection
 (Outputs to /dev/video100 in YUV420)
 
-[https://img.shields.io/badge/License-MIT-yellow.svg](https://img.shields.io/badge/License-MIT-yellow.svg)
-[https://img.shields.io/badge/Python-3-blue.svg](https://img.shields.io/badge/Python-3-blue.svg)
+[![MIT License](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
+[![Python 3](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 
 📦 Installation
 
