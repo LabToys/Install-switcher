@@ -14,13 +14,19 @@ Automatic 1080p30 video switching with audio-activated camera selection
 1. Clone the repository
 
 bash
+
 git clone https://github.com/LabToys/Install-switcher.git
+
 cd Install-switcher
+
 2. Run the installer
+3. 
 
 bash
+
 chmod +x install_switcher.sh
 sudo ./install_switcher.sh
+
 Installs:
 
 FFmpeg & ALSA utilities
