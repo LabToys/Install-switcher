@@ -10,21 +10,24 @@ Automatic 1080p30 video switching with audio-activated camera selection
 
 
 <div align="center">
-  <img src="https://www.raspberrypi.com/app/uploads/2022/02/COLOUR-Raspberry-Pi-Symbol-Registered.png" width="120">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/FFmpeg_Logo_new.svg/1280px-FFmpeg_Logo_new.svg.png" width="120">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/HDMI_Logo.svg/2560px-HDMI_Logo.svg.png" width="120">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png" width="60">
+  <img src="https://www.raspberrypi.com/app/uploads/2022/02/COLOUR-Raspberry-Pi-Symbol-Registered.png" width="120"><div align="center">
+  <img src="https://raw.githubusercontent.com/FFmpeg/FFmpeg/master/doc/ffmpeg-logo.svg" width="120" alt="FFmpeg" style="background:#008000;padding:10px">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/HDMI_logo.png" width="120" alt="HDMI">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="60" alt="Python">
 </div>
 
 ## 🛠️ Tech Stack
 | Component | HD Logo | Version |
 |-----------|---------|---------|
 | **Raspberry Pi** | <img src="https://www.raspberrypi.com/app/uploads/2022/02/COLOUR-Raspberry-Pi-Symbol-Registered.png" width="80"> | 4B/5 |
-| **FFmpeg** | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/FFmpeg_Logo_new.svg/1280px-FFmpeg_Logo_new.svg.png" width="80"> | 5.1+ |
-| **HDMI** | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/HDMI_Logo.svg/2560px-HDMI_Logo.svg.png" width="80"> | 2.0 |
-| **ALSA** | <img src="https://alsa-project.org/files/images/alsa-logo.png" width="80"> | 1.2+ |
+| **FFmpeg** | <img src="https://raw.githubusercontent.com/FFmpeg/FFmpeg/master/doc/ffmpeg-logo.svg" width="80" style="background:#008000;padding:5px"> | 5.1+ |
+| **HDMI** | <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/HDMI_logo.png" width="80"> | 2.0 |
+| **ALSA** | <img src="https://www.alsa-project.org/alsa/img/alsa-logo.png" width="80"> | 1.2+ |
 | **v4l2loopback** | <img src="https://raw.githubusercontent.com/umlaeute/v4l2loopback/master/doc/v4l2loopback.png" width="80"> | 0.12+ |
 
+## 🌟 Features
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/HDMI_logo.png" width="120" alt="HDMI Output">
 
 📦 Installation
 
