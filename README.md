@@ -8,6 +8,24 @@ Automatic 1080p30 video switching with audio-activated camera selection
 [![ALSA](https://img.shields.io/badge/ALSA-1.2-red.svg?logo=alsa)](https://alsa-project.org/)
 [![v4l2loopback](https://img.shields.io/badge/v4l2loopback-0.12-blue.svg)](https://github.com/umlaeute/v4l2loopback)
 
+
+<div align="center">
+  <img src="https://www.raspberrypi.com/app/uploads/2022/02/COLOUR-Raspberry-Pi-Symbol-Registered.png" width="120">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/FFmpeg_Logo_new.svg/1280px-FFmpeg_Logo_new.svg.png" width="120">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/HDMI_Logo.svg/2560px-HDMI_Logo.svg.png" width="120">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png" width="60">
+</div>
+
+## 🛠️ Tech Stack
+| Component | HD Logo | Version |
+|-----------|---------|---------|
+| **Raspberry Pi** | <img src="https://www.raspberrypi.com/app/uploads/2022/02/COLOUR-Raspberry-Pi-Symbol-Registered.png" width="80"> | 4B/5 |
+| **FFmpeg** | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/FFmpeg_Logo_new.svg/1280px-FFmpeg_Logo_new.svg.png" width="80"> | 5.1+ |
+| **HDMI** | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/HDMI_Logo.svg/2560px-HDMI_Logo.svg.png" width="80"> | 2.0 |
+| **ALSA** | <img src="https://alsa-project.org/files/images/alsa-logo.png" width="80"> | 1.2+ |
+| **v4l2loopback** | <img src="https://raw.githubusercontent.com/umlaeute/v4l2loopback/master/doc/v4l2loopback.png" width="80"> | 0.12+ |
+
+
 📦 Installation
 
 1. Clone the repository
