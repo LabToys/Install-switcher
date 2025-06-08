@@ -1,5 +1,5 @@
 #!/bin/bash
-# 1080p30 YUV420 Auto-Switcher Installer
+# 1080p30 Auto-Switcher Installer
 # Official installation script for LabToys/Install-switcher
 
 echo "🔧 Installing dependencies..."
