@@ -32,11 +32,9 @@ Edit auto_switcher_1080p.py to customize:
 
 python
 CONFIG = {
-    "resolution": "1920x1080",  # Output resolution
-    "framerate": 30,            # Frame rate
-    "audio_devices": ["hw:1,0", "hw:2,0", ...],  # ALSA inputs
-    "video_devices": ["/dev/video0", "/dev/video2", ...],  # Camera paths
-    "virtual_cam": "/dev/video100"  # Virtual output device
+    "resolution": "1920x1080",  # Supported: 1280x720, 1920x1080
+    "pixel_format": "yuv420p",  # Forced input/output format
+    "audio_threshold": 0.05,    # Voice detection sensitivity (0-1)
 }
 🚀 Usage
 
