@@ -32,9 +32,12 @@ Edit auto_switcher_1080p.py to customize:
 
 python
 CONFIG = {
-    "resolution": "1920x1080",  # Supported: 1280x720, 1920x1080
-    "pixel_format": "yuv420p",  # Forced input/output format
-    "audio_threshold": 0.05,    # Voice detection sensitivity (0-1)
+    "resolution": "1920x1080",
+    # Supported: 1280x720, 1920x1080
+    "pixel_format": "yuv420p",
+    # Forced input/output format
+    "audio_threshold": 0.05,
+    # Voice detection sensitivity (0-1)
 }
 🚀 Usage
 
