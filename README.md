@@ -13,23 +13,25 @@ Automatic 1080p30 video switching with audio-activated camera selection
 
 1. Clone the repository
 
-bash
+in bash terminal copy this command :
 
 git clone https://github.com/LabToys/Install-switcher.git
 
 cd Install-switcher
 
-2. Run the installer
-3. 
 
-bash
+
+2. Run the installer
+
+in bash terminal copy this command :
 
 chmod +x install_switcher.sh
 
 sudo ./install_switcher.sh
 
-Installs:
 
+
+Installs:
 FFmpeg & ALSA utilities
 v4l2loopback kernel module
 Python dependencies (WebRTC VAD)
@@ -37,13 +39,17 @@ Python dependencies (WebRTC VAD)
 
 Edit auto_switcher_1080p.py to customize:
 
-python
-CONFIG = {
+
     "resolution": "1920x1080",
+    
     # Supported: 1280x720, 1920x1080
+    
     "pixel_format": "yuv420p",
+    
     # Forced input/output format
+    
     "audio_threshold": 0.05,
+    
     # Voice detection sensitivity (0-1)
 }
 🚀 Usage
