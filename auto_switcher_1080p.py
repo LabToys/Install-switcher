@@ -12,10 +12,10 @@ CONFIG = {
     "resolution": "1920x1080",
     "framerate": 30,
     "cameras": [
-        {"video": "/dev/video0", "audio": "hw:1,0", "name": "CAM1"},
-        {"video": "/dev/video2", "audio": "hw:2,0", "name": "CAM2"},
-        {"video": "/dev/video4", "audio": "hw:3,0", "name": "CAM3"},
-        {"video": "/dev/video6", "audio": "hw:4,0", "name": "CAM4"}
+        {"video": "/dev/video0", "audio": "hw:3,0", "name": "CAM1"},
+        {"video": "/dev/video2", "audio": "hw:4,0", "name": "CAM2"},
+        {"video": "/dev/video4", "audio": "hw:5,0", "name": "CAM3"},
+        {"video": "/dev/video6", "audio": "hw:6,0", "name": "CAM4"}
     ],
     "silence_threshold": 0.1,
     "hold_time": 2.5,
