@@ -10,9 +10,11 @@ Automatic 1080p30 video switching with audio-activated camera selection
 <img src="https://www.raspberrypi.com/app/uploads/2022/02/COLOUR-Raspberry-Pi-Symbol-Registered.png" width="120">
   
 📦 Installation
-
+1.
 git clone https://github.com/LabToys/Install-switcher.git && cd Install-switcher && chmod +x install_switcher.sh && sudo ./install_switcher.sh
 
+2.
+sudo python3 auto_switcher_1080p.py 
 
 
 Installs:
