@@ -22,15 +22,6 @@ FFmpeg & ALSA utilities
 v4l2loopback kernel module
 Python dependencies (WebRTC VAD)
 
-bash
-# Manual start (if not using systemd)
-
-
-python3 /auto_switcher_1080p.py
-
-
-Features:
-
 Auto-starts on boot via systemd
 Voice Activity Detection (WebRTC)
 Clean 1080p30 output
