@@ -1,3 +1,5 @@
+work in process --- not ready !
+
 🎥 Raspberry Pi Auto Camera Switcher
 Automatic 1080p30 video switching with audio-activated camera selection
 (Outputs to /dev/video100 )
